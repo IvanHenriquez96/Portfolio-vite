@@ -12,7 +12,7 @@ function App() {
   const [count, setCount] = useState(0);
 
   return (
-    <div className="App container mx-auto	">
+    <div className="App mx-auto	">
       <Hero />
       <SeccionTecnologias />
       <br />

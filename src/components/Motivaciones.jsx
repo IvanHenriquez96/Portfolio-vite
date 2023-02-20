@@ -17,7 +17,7 @@ export const Motivaciones = () => {
             atención a mi trabajo y trato de ser lo mas comprensible y amigable.
           </p>
 
-          <p className="p-5 md:px-20 my-5 text-justify">
+          <p className="p-5 md:px-20 my-5 text-justify font-light">
             Me pondría muy feliz poder ser parte de equipos de desarrollo
             enfocados a mejorar la calidad de vida de áreas que se podrían decir
             que están "un poco olvidadas", siempre se puede mejorar💙.
