@@ -1,5 +1,9 @@
 import React from "react";
 
+import logoGithub from "../assets/github_logo.png";
+import logoLinkedin from "../assets/linkedin.png";
+import logoInstagram from "../assets/ig.png";
+
 export const Hero = () => {
   return (
     <div className="grid grid-cols-1 p-7 md:grid-cols-3 gap-4  h-screen flex items-center">
@@ -11,6 +15,30 @@ export const Hero = () => {
           <h2 className="text-4xl mt-3 font-bold animate__animated animate__fadeInUp">
             Web Developer
           </h2>
+        </div>
+
+        <div className="flex justify-center space-x-6 m-10">
+          <a
+            href="http://github.com/IvanHenriquez96"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={logoGithub} width={60} alt="" />
+          </a>
+          <a
+            href="https://cl.linkedin.com/in/ivan-ignacio-henriquez-fica-00462a135"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={logoLinkedin} width={60} alt="" />
+          </a>
+          <a
+            href="https://www.instagram.com/nachostrife/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={logoInstagram} width={60} alt="" />
+          </a>
         </div>
       </div>
       <div className="mx-auto">
