@@ -23,21 +23,36 @@ export const Hero = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={logoGithub} width={60} alt="" />
+            <img
+              className="animate__animated animate__fadeIn"
+              src={logoGithub}
+              width={60}
+              alt=""
+            />
           </a>
           <a
             href="https://cl.linkedin.com/in/ivan-ignacio-henriquez-fica-00462a135"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={logoLinkedin} width={60} alt="" />
+            <img
+              className="animate__animated animate__fadeIn"
+              src={logoLinkedin}
+              width={60}
+              alt=""
+            />
           </a>
           <a
             href="https://www.instagram.com/nachostrife/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={logoInstagram} width={60} alt="" />
+            <img
+              className="animate__animated animate__fadeIn"
+              src={logoInstagram}
+              width={60}
+              alt=""
+            />
           </a>
         </div>
       </div>
