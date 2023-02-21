@@ -15,7 +15,12 @@ export const SeccionInvLikedin = () => {
         </p>
       </div>
       <div className="m-auto ">
-        <img src={logoLinkedin} width={200} alt="logo linkedin" />
+        <img
+          src={logoLinkedin}
+          width={200}
+          alt="logo linkedin"
+          className="animate__animated  animate__headShake"
+        />
       </div>
     </div>
   );

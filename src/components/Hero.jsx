@@ -3,14 +3,15 @@ import React from "react";
 import logoGithub from "../assets/github_logo.png";
 import logoLinkedin from "../assets/linkedin.png";
 import logoInstagram from "../assets/ig.png";
+import fotoPerfil from "../assets/perfil.png";
 
 export const Hero = () => {
   return (
-    <div className="grid grid-cols-1 p-7 md:grid-cols-3 gap-4  h-screen items-center">
-      <div className="col-span-2">
+    <div className="grid grid-cols-1 p-7 md:grid-cols-5 gap-4  h-screen items-center animate__animated animate__fadeIn">
+      <div className="col-span-3">
         <div className="text-center">
           <h1 className="text-6xl font-bold animate__animated animate__fadeInDown">
-            IVÁN HENRIQUEZ
+            IVÁN HENRÍQUEZ
           </h1>
           <h2 className="text-4xl mt-3 font-bold animate__animated animate__fadeInUp">
             Web Developer
@@ -59,12 +60,11 @@ export const Hero = () => {
           Desarrollador Full Stack - PHP Laravel - Node - React - MYSQL
         </p>
       </div>
-      <div className="mx-auto">
+      <div className="mx-auto col-span-2">
         <img
-          src="vite.svg"
-          width={250}
+          src={fotoPerfil}
           alt=""
-          className="animate__animated animate__fadeIn"
+          className="animate__animated animate__flipInY animate__delay-1s w-3/4 mx-auto"
         />
       </div>
     </div>
