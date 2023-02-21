@@ -7,7 +7,7 @@ import mysqlLogo from "../assets/mysql_logo.png";
 
 export const SeccionTecnologias = () => {
   return (
-    <div className="bg-gray-700 py-5">
+    <div className="bg-gray-700 py-5 mt-5">
       <div className="flex justify-around md:px-28">
         <img src={phpLogo} width="50" alt="" />
         <img src={laravelLogo} width="50" alt="" />

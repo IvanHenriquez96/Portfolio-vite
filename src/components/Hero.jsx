@@ -6,7 +6,7 @@ import logoInstagram from "../assets/ig.png";
 
 export const Hero = () => {
   return (
-    <div className="grid grid-cols-1 p-7 md:grid-cols-3 gap-4  h-screen flex items-center">
+    <div className="grid grid-cols-1 p-7 md:grid-cols-3 gap-4  h-screen items-center">
       <div className="col-span-2">
         <div className="text-center">
           <h1 className="text-6xl font-bold animate__animated animate__fadeInDown">
@@ -16,7 +16,6 @@ export const Hero = () => {
             Web Developer
           </h2>
         </div>
-
         <div className="flex justify-center space-x-6 m-10">
           <a
             href="http://github.com/IvanHenriquez96"
@@ -55,6 +54,10 @@ export const Hero = () => {
             />
           </a>
         </div>
+
+        <p className="text-center md:text-2xl text-gray-200">
+          Desarrollador Full Stack - PHP Laravel - Node - React - MYSQL
+        </p>
       </div>
       <div className="mx-auto">
         <img

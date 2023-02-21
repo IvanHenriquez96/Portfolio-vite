@@ -7,6 +7,8 @@ import { Presentacion } from "./components/Presentacion";
 import { Motivaciones } from "./components/Motivaciones";
 import { SeccionProyectosRealizados } from "./components/SeccionProyectosRealizados";
 import { SeccionTecnologias } from "./components/SeccionTecnologias";
+import { SeccionInvLikedin } from "./components/SeccionInvLikedin";
+import { Footer } from "./components/Footer";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -26,6 +28,10 @@ function App() {
       <br />
       <br />
       <SeccionProyectosRealizados />
+      <SeccionInvLikedin />
+      <br />
+      <br />
+      <Footer />
     </div>
   );
 }
