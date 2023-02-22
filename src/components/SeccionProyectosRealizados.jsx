@@ -9,8 +9,9 @@ import proyectos from "../Controllers/ProyectosController";
 export const SeccionProyectosRealizados = () => {
   return (
     <div id="seccionProyectosRealizados" className=" text-center p-5">
-      <h2 className="text-5xl font-bold m-12 ">Proyectos Realizados</h2>
-
+      <h2 className="text-5xl font-bold m-12 " data-aos="zoom-in">
+        Proyectos Realizados
+      </h2>
       <div className="flex flex-col items-center justify-center m-5">
         {proyectos.map((proyecto) => (
           <Proyecto
@@ -23,6 +24,9 @@ export const SeccionProyectosRealizados = () => {
           />
         ))}
       </div>
+      <p className="text-4xl my-10 font-bold" data-aos="zoom-in">
+        ¡Seguimos Trabajando! 🚀
+      </p>
     </div>
   );
 };

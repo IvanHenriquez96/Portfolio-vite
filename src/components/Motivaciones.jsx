@@ -3,7 +3,7 @@ import imgPresentacion from "../assets/pantalla.png";
 
 export const Motivaciones = () => {
   return (
-    <div className="">
+    <div className="" data-aos="zoom-in">
       <div className="grid grid-cols-1 md:grid-cols-3  text-center md:px-20">
         <div className="col-span-2">
           <h2 className="text-5xl font-bold m-5">Motivaciónes</h2>

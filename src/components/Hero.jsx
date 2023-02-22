@@ -7,13 +7,13 @@ import fotoPerfil from "../assets/perfil.png";
 
 export const Hero = () => {
   return (
-    <div className="grid grid-cols-1 p-7 md:grid-cols-5 gap-4  h-screen items-center animate__animated animate__fadeIn">
+    <div className="grid grid-cols-1 p-7 md:grid-cols-5 gap-4  h-screen items-center">
       <div className="col-span-3">
         <div className="text-center">
-          <h1 className="text-6xl font-bold animate__animated animate__fadeInDown">
+          <h1 className="text-6xl font-bold" data-aos="fade-down">
             IVÁN HENRÍQUEZ
           </h1>
-          <h2 className="text-4xl mt-3 font-bold animate__animated animate__fadeInUp">
+          <h2 className="text-4xl mt-3 font-bold" data-aos="fade-up">
             Web Developer
           </h2>
         </div>
@@ -24,10 +24,11 @@ export const Hero = () => {
             rel="noopener noreferrer"
           >
             <img
-              className="animate__animated animate__fadeIn"
               src={logoGithub}
               width={60}
               alt=""
+              data-aos="fade-up"
+              data-aos-delay="300"
             />
           </a>
           <a
@@ -36,10 +37,11 @@ export const Hero = () => {
             rel="noopener noreferrer"
           >
             <img
-              className="animate__animated animate__fadeIn"
               src={logoLinkedin}
               width={60}
               alt=""
+              data-aos="fade-up"
+              data-aos-delay="500"
             />
           </a>
           <a
@@ -48,15 +50,20 @@ export const Hero = () => {
             rel="noopener noreferrer"
           >
             <img
-              className="animate__animated animate__fadeIn"
               src={logoInstagram}
               width={60}
               alt=""
+              data-aos="fade-up"
+              data-aos-delay="700"
             />
           </a>
         </div>
 
-        <p className="text-center md:text-2xl text-gray-200">
+        <p
+          className="text-center md:text-2xl text-gray-200"
+          data-aos="fade-in"
+          data-aos-delay="500"
+        >
           Desarrollador Full Stack - PHP Laravel - Node - React - MYSQL
         </p>
       </div>
@@ -64,7 +71,8 @@ export const Hero = () => {
         <img
           src={fotoPerfil}
           alt=""
-          className="animate__animated animate__flipInY animate__delay-1s w-3/4 mx-auto"
+          className="w-3/4 mx-auto"
+          data-aos="zoom-in"
         />
       </div>
     </div>

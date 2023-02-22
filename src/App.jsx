@@ -1,7 +1,9 @@
-import { useState } from "react";
 import reactLogo from "./assets/react.svg";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import "./App.css";
-import "animate.css";
 import { Hero } from "./components/Hero";
 import { Presentacion } from "./components/Presentacion";
 import { Motivaciones } from "./components/Motivaciones";
@@ -9,12 +11,17 @@ import { SeccionProyectosRealizados } from "./components/SeccionProyectosRealiza
 import { SeccionTecnologias } from "./components/SeccionTecnologias";
 import { SeccionInvLikedin } from "./components/SeccionInvLikedin";
 import { Footer } from "./components/Footer";
+import { useEffect } from "react";
 
 function App() {
-  const [count, setCount] = useState(0);
+  useEffect(() => {
+    AOS.init({
+      duration: "1000",
+    });
+  }, []);
 
   return (
-    <div className="App mx-auto	">
+    <div className="App mx-auto">
       <Hero />
       <SeccionTecnologias />
       <br />
