@@ -12,9 +12,9 @@ export const Motivaciones = () => {
             🤖. Mi principal motivación a la hora de desarrollar es la comodidad
             y felicidad del usuario final al que va destinado el software, nunca
             se me olvida que detrás de todo lo que hago hay personas que lo
-            utiliza en su día a día y me importa que ellos sientan a gusto
-            utilizando las herramientas, por eso le pongo especial cariño y
-            atención a mi trabajo y trato de ser lo mas comprensible y amigable.
+            utiliza en su día a día y me importa que ellos se sientan a gusto
+            con las herramientas, por eso pongo especial cariño y atención a mi
+            trabajo y trato de ser lo mas comprensible y amigable.
           </p>
 
           <p className="p-5 md:px-20 my-5 text-justify font-light">

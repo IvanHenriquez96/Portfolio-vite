@@ -18,12 +18,18 @@ export const SeccionInvLikedin = () => {
         </p>
       </div>
       <div className="m-auto ">
-        <img
-          src={logoLinkedin}
-          width={200}
-          alt="logo linkedin"
-          className="animate__animated  animate__headShake"
-        />
+        <a
+          href="https://cl.linkedin.com/in/ivan-ignacio-henriquez-fica-00462a135"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={logoLinkedin}
+            width={200}
+            alt="logo linkedin"
+            className="shake-bottom"
+          />
+        </a>
       </div>
     </div>
   );
