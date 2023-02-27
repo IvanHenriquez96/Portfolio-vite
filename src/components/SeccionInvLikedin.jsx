@@ -19,7 +19,7 @@ export const SeccionInvLikedin = () => {
       </div>
       <div className="m-auto ">
         <a
-          href="https://cl.linkedin.com/in/ivan-ignacio-henriquez-fica-00462a135"
+          href="https://www.linkedin.com/in/iv%C3%A1n-ignacio-henr%C3%ADquez-fica-00462a135/"
           target="_blank"
           rel="noopener noreferrer"
         >
