@@ -18,8 +18,8 @@ const proyectos = [
   {
     nombre: "JUEGO - PIEDRA PAPEL O TIJERAS!",
     descripcion: "Desafía a la CPU y obtén los logros secretos!",
-    url_img: "https://stellar-valkyrie-01ddb0.netlify.app/img/FF1.png",
-    url_sitio: "https://stellar-valkyrie-01ddb0.netlify.app/",
+    url_img: "https://ihenriquez.dev/mage.png",
+    url_sitio: "https://ihenriquez-piedrapapeltijeras.netlify.app/",
     url_repo: "https://github.com/IvanHenriquez96/piedraPapelTijerasJSVanilla",
   },
 ];
