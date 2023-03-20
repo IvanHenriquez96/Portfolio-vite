@@ -3,7 +3,7 @@ import React from "react";
 import logoGithub from "../assets/github_logo.png";
 import logoLinkedin from "../assets/linkedin.png";
 import logoInstagram from "../assets/ig.png";
-import fotoPerfil from "../assets/perfil.png";
+import fotoPerfil from "../assets/perfil2.png";
 
 export const Hero = () => {
   return (
