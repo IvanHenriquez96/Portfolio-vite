@@ -22,6 +22,15 @@ const proyectos = [
     url_sitio: "https://ihenriquez-piedrapapeltijeras.netlify.app/",
     url_repo: "https://github.com/IvanHenriquez96/piedraPapelTijerasJSVanilla",
   },
+
+  {
+    nombre: "APP - PORTAL DE ADOPCIÓN!",
+    descripcion:
+      "En esta web podrás encontrar a diversas mascotas para adoptar de distintas fundaciones!",
+    url_img: "https://cdn-icons-png.flaticon.com/512/5267/5267453.png",
+    url_sitio: "https://ihenriquez-adoptappcl.netlify.app/",
+    url_repo: "https://github.com/IvanHenriquez96/AdoptappCL",
+  },
 ];
 
 export default proyectos;
