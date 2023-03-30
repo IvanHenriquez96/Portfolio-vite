@@ -12,7 +12,8 @@ export const SeccionProyectosRealizados = () => {
       <h2 className="text-5xl font-bold m-12 " data-aos="zoom-in">
         Proyectos Realizados
       </h2>
-      <div className="flex flex-col items-center justify-center m-5">
+
+      <div className="px-4 md:px-32 grid grid-cols-1 md:grid-cols-3 md: gap-4">
         {proyectos.map((proyecto) => (
           <Proyecto
             key={proyecto.nombre}
@@ -24,6 +25,7 @@ export const SeccionProyectosRealizados = () => {
           />
         ))}
       </div>
+
       <p className="text-4xl my-10 font-bold" data-aos="zoom-in">
         ¡Seguimos Trabajando! 🚀
       </p>

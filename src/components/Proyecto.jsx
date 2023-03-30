@@ -7,13 +7,7 @@ var estilos = {
   },
 };
 
-export const Proyecto = ({
-  nombre,
-  descripcion,
-  url_img,
-  url_sitio,
-  url_repo,
-}) => {
+export const Proyecto = ({ nombre, descripcion, url_img, url_sitio, url_repo }) => {
   return (
     <div
       className="grid grid-cols-3 border-2 border-white-500 p-5 rounded-lg my-5 gap-4 bg-[#330033]"
