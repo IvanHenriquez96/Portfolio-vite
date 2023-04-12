@@ -10,8 +10,7 @@ const proyectos = [
     nombre: "APP PARADEROS - API REDBUS",
     descripcion: "¿Quieres saber en cuantos minutos llega la micro?",
     url_img: "https://cdn-icons-png.flaticon.com/512/1023/1023462.png",
-    url_sitio:
-      "https://6268954ed7009d26ee037fdf--gorgeous-blancmange-9e86f6.netlify.app",
+    url_sitio: "https://6268954ed7009d26ee037fdf--gorgeous-blancmange-9e86f6.netlify.app",
     url_repo: "https://github.com/IvanHenriquez96/2022_transporte_app",
   },
 
@@ -30,6 +29,14 @@ const proyectos = [
     url_img: "https://cdn-icons-png.flaticon.com/512/5267/5267453.png",
     url_sitio: "https://ihenriquez-adoptappcl.netlify.app/",
     url_repo: "https://github.com/IvanHenriquez96/AdoptappCL",
+  },
+  {
+    nombre: "APP - PUNTO DE VENTA CINE | REACT + REDUX! (En Construcción)",
+    descripcion:
+      "E-commerce, agrega tus tickets al carrito a través de un selector de asientos dinámico!",
+    url_img: "https://cdn-icons-png.flaticon.com/512/1038/1038100.png",
+    url_sitio: "https://ihenriquez-app-cine.netlify.app",
+    url_repo: "https://github.com/IvanHenriquez96/punto-venta-cine",
   },
 ];
 
