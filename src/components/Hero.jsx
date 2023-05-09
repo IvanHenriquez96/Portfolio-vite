@@ -32,7 +32,7 @@ export const Hero = () => {
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/iv%C3%A1n-ignacio-henr%C3%ADquez-fica-00462a135/"
+            href="https://www.linkedin.com/in/ihenriquez96"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -68,12 +68,7 @@ export const Hero = () => {
         </p>
       </div>
       <div className="mx-auto col-span-2">
-        <img
-          src={fotoPerfil}
-          alt=""
-          className="w-3/4 mx-auto"
-          data-aos="zoom-in"
-        />
+        <img src={fotoPerfil} alt="" className="w-3/4 mx-auto" data-aos="zoom-in" />
       </div>
     </div>
   );
