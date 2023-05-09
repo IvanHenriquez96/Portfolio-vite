@@ -31,12 +31,19 @@ const proyectos = [
     url_repo: "https://github.com/IvanHenriquez96/AdoptappCL",
   },
   {
-    nombre: "APP - PUNTO DE VENTA CINE | REACT + REDUX! (En Construcción)",
+    nombre: "APP - PUNTO DE VENTA CINE | REACT + REDUX!",
     descripcion:
       "E-commerce, agrega tus tickets al carrito a través de un selector de asientos dinámico!",
     url_img: "https://cdn-icons-png.flaticon.com/512/1038/1038100.png",
     url_sitio: "https://ihenriquez-app-cine.netlify.app",
     url_repo: "https://github.com/IvanHenriquez96/punto-venta-cine",
+  },
+  {
+    nombre: "APP - RETRO POKEDEX | REACT",
+    descripcion: "Pokedex aplicando un estilo retro, para los mas nostálgicos",
+    url_img: "https://i.pinimg.com/236x/64/76/e2/6476e2675a5f24d72531c8f748cc8eaa.jpg",
+    url_sitio: "https://ihenriquez-pokedex.netlify.app/",
+    url_repo: "https://github.com/IvanHenriquez96/pokedex",
   },
 ];
 
