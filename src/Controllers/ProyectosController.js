@@ -45,6 +45,14 @@ const proyectos = [
     url_sitio: "https://ihenriquez-pokedex.netlify.app/",
     url_repo: "https://github.com/IvanHenriquez96/pokedex",
   },
+  {
+    nombre: "APP - Caculadora de macros | NEXTJS - HYBRID - SSG/CSR",
+    descripcion:
+      "Calcula tu Tasa Metabolica Basal y según tu cantidad de actividad física y objetivos descubre cuantas calorías al día deberías consumir diviendola en Carbohidratos, Proteinas y Grasas.",
+    url_img: "https://cdn-icons-png.flaticon.com/512/1048/1048913.png",
+    url_sitio: "https://ihenriquez-calculadora-macros.netlify.app/",
+    url_repo: "https://github.com/IvanHenriquez96/calculadora_macros",
+  },
 ];
 
 export default proyectos;
